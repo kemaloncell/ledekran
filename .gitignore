@@ -1,3 +1,4 @@
+### CodeIgniter ###
 */config/development
 */logs/log-*.php
 !*/logs/index.html
@@ -14,4 +15,32 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
+!application/controllers/Sitemap.php
+!application/controllers/admin
 /vendor/
+
+### CodeIgniter Patch ###
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
